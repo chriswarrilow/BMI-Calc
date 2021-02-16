@@ -2,9 +2,9 @@ weight = input("enter your weight in lbs: ")
 height = input("enter your height in inches: ")
 
 bmiWeight = (int(weight)) * 705
-susanHeight = (int(height)) 
-bmiHeight = bmiWeight / susanHeight
-bmiTotal = (int(bmiHeight)) / susanHeight
+numHeight = (int(height)) 
+bmiHeight = bmiWeight / numHeight
+bmiTotal = (int(bmiHeight)) / numHeight
 
 #print(type(bmiWeight, bmiHeight, bmiTotal))
 print(round(bmiTotal))
